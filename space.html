@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>SpaceWeb</title>
+    <link rel="icon" href="./images/t-1593421703-logo.jpg">
+</head>
+
+<body>
+    <div class="header">
+        <div class="row d-flex justify-content-center">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container ">
+                    <div class="row hdcontainer">
+                        <div class="col-7 col-md-6 col-lg-3">
+                            <a class=" navbar-brand" href="#">
+                                <img src="./images/t-1593421703-logo.jpg" alt="logo-space">
+                            </a>
+                        </div>
+
+                        <div class=" col-md-9 position-absolute button-show">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="col-1 col-md-8 collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="hover-horizontal-line navbar-nav me-auto mb-2 mb-lg-0">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <li class="nav-item">
+                                            <a class="nav-link current" aria-current="page" href="#">HOME</a>
+                                        </li>
+                                    </div>
+                                    <div class="col-2">
+                                        <li class="nav-item" style="margin-right: 0px;margin-left: 0px;">
+                                            <a class="nav-link" href="#aboutus">ABOUT US</a>
+                                        </li>
+                                    </div>
+                                    <div class="col-2">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#porfolio">PORTFOLIO</a>
+                                        </li>
+                                    </div>
+                                    <div class="col-2">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#services">SERVICES</a>
+                                        </li>
+                                    </div>
+                                    <div class="col-2">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Page
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="https://piepme.com/">Piepme</a></li>
+                                                <li><a class="dropdown-item" href="#">Piepmark</a></li>
+                                                <li><a class="dropdown-item" href="https://www.webinaris.com/">Webinaris</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </div>
+                                    <div class="col-2">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#contact">CONTACT</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="gallery" id="explore">
+        <div class="container">
+            <h2>Bộ Sưu Tập</h2>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="img-container">
+                        <img class="col-12 imgsrc" src="" alt="">
+                        <p>Foam</p>
+                        <span>Nov 9, 2015</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="img-container">
+                        <img class="col-12 imgsrc" src="" alt="">
+                        <p>Foam</p>
+                        <span>Nov 9, 2015</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 ">
+                    <div class="img-container">
+                        <img class="col-12 imgsrc" src="" alt="">
+                        <p>Foam</p>
+                        <span>Nov 9, 2015</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="img-container">
+                        <img class="col-12 imgsrc" src="" alt="">
+                        <p>Foam</p>
+                        <span>Nov 9, 2015</span>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-explore-gallery text-end pt-4">
+                <a id="loadMore" style="cursor: pointer;" >
+                    <p style="margin-bottom: 0px; padding-bottom: 40px;">Explore gallery <i
+                            class="fa-solid fa-arrow-right"></i></p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="customer" id="aboutus">
+        <div class="container">
+            <h2>Đánh Giá Của Khách Hàng </h2>
+            <p class="slogan">Written by people like you</p>
+            <div class="row d-flex justify-content-center" style="padding-bottom: 90px;">
+                <div class="col-12 col-sm-5 d-flex flex-column ">
+                    <p class="p-heading">The Summit</p>
+                    <div class="d-flex smallcontainer">
+                        <div class="straight-line"></div>
+                        <span>You only live once. A phrase adopted and since-overused by popular culture, it is actually
+                            rooted in truth. You should always be pushing your boundaries, striving for your most
+                            difficult goals, and scaring yourself every day with something new.</span>
+                    </div>
+                    <div class="picture-info">
+                        <img class="circle-avatar" src="./images/t-1593499506-img-01.jpg" alt="">
+                        <span class="sp-name">Filip Osklen</span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-2 divider d-flex justify-content-center">
+                    <i class="fa-duotone fa-rhombus"></i>
+                </div>
+                <div class="col-12 col-sm-5 d-flex flex-column ">
+                    <p class="p-heading">The Summit</p>
+                    <div class="d-flex smallcontainer">
+                        <div class="straight-line"></div>
+                        <span>You only live once. A phrase adopted and since-overused by popular culture, it is actually
+                            rooted in truth. You should always be pushing your boundaries, striving for your most
+                            difficult goals, and scaring yourself every day with something new.</span>
+                    </div>
+                    <div class="picture-info">
+                        <img class="circle-avatar" src="./images/t-1593499506-img-02.jpg" alt="">
+                        <span class="sp-name">Rachel Robert</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ourproject">
+        <div class="container">
+            <h2>Dự Án Của Chúng Tôi</h2>
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <img class="ourProjectImg" src="" alt="">
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <img class="ourProjectImg" src="" alt="">
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <img class="ourProjectImg" src="" alt="">
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <img class="ourProjectImg" src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="detailproject" id="porfolio">
+        <div class="container">
+            <h2>Dự Án Chi Tiết</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>You only live once. A phrase adopted and since-overused by popular culture, it is actually rooted
+                        in truth. You should always be pushing your boundaries, striving for your most difficult goals,
+                        and scaring yourself every day with something new.</p>
+                    <p>A phrase adopted and since-overused by popular culture, it is actually rooted in truth. You
+                        should always be pushing your boundaries, striving for your most difficult goals, and scaring
+                        yourself every day with something new.</p>
+                    <p>Since-overused by popular culture, it is actually rooted in truth. You should always be pushing
+                        your boundaries, striving for your most difficult goals, and scaring yourself every day with
+                        something new.</p>
+                    <p>You should always be pushing your boundaries</p>
+                    <p>scaring yourself every day with something new, since-overused by popular culture</p>
+                    <p>scaring yourself every day with something new, since-overused by popular culture</p>
+                    <p>scaring yourself every day with something new, since-overused by popular culture</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="row d-flex justify-content-center">
+                        <img src="" alt="" class="col-md-12 col-lg-6 detailProjectImg">
+                        <img src="" alt="" class="col-md-12 col-lg-6 detailProjectImg">
+                        <img src="" alt="" class="col-md-12 col-lg-6 detailProjectImg">
+                        <img src="" alt="" class="col-md-12 col-lg-6 detailProjectImg">
+                        <img src="" alt="" class="col-md-12 col-lg-6 detailProjectImg">
+                        <img src="" alt="" class="col-md-12 col-lg-6 detailProjectImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="archievement" id="services">
+        <div class="container">
+            <h2 class="text-center">Thành Tựu</h2>
+            <div class="row d-flex ">
+                <div class="col-sm-3 d-flex text-center flex-column mabot">
+                    <p>12</p>
+                    <span>Năm kinh nghiệm</span>
+                </div>
+                <div class="col-sm-3 d-flex text-center flex-column mabot">
+                    <p>525</p>
+                    <span>Công trình</span>
+                </div>
+                <div class="col-sm-3 d-flex text-center flex-column mabot">
+                    <p>198</p>
+                    <span>Khách hàng</span>
+                </div>
+                <div class="col-sm-3 d-flex text-center flex-column mabot last">
+                    <p>25</p>
+                    <span>Nhân Viên</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="personel">
+        <div class="container">
+            <h2>Nhân sự</h2>
+            <span class="d-flex text-center">You only live once. A phrase adopted and since-overused by popular culture,
+                it is actually rooted in truth. You should always be pushing your boundaries, striving for your most
+                difficult goals, and scaring yourself every day with something new. A phrase adopted and since-overused
+                by popular culture, it is actually rooted in truth. You should always be pushing your boundaries,
+                striving for your most difficult goals, and scaring yourself every day with something new.</span>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center text-center">
+                    <img class="p-img" src="" alt="">
+                    <p class="p-name"></p>
+                    <p class="p-work-position"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="mgbot30">
+                        <p>New Space Interiors</p>
+                        <span>Số 164A Điện Biên Phủ, Phường 6, Quận 3.
+                            Tp.Hồ Chí Minh, Việt Nam</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <p>Thông tin chung</p>
+                    <span>Contact@newspace.vn
+                        Lienhe@khonggianmoi.info</span>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="mgbot30">
+                        <div class="row d-flex flex-column">
+                            <div class="col-md-12">
+                                <div class="contact-icon">
+                                    <ul class="row d-flex flex-row">
+                                        <li class="col-3"><a href="http://fb.com"><i
+                                                    class="fa-brands fa-facebook-f d-flex justify-content-center align-items-center"></i></a>
+                                        </li>
+                                        <li class="col-3"><a href="http://instagram.com"><i
+                                                    class="fa-brands fa-instagram d-flex justify-content-center align-items-center"></i></a>
+                                        </li>
+                                        <li class="col-3"><a href="http://youtube.com"><i
+                                                    class="fa-brands fa-youtube-square d-flex justify-content-center align-items-center"></i></a>
+                                        </li>
+                                        <li class="col-3"><a href="http://twitter.com"><i
+                                                    class="fa-brands fa-twitter d-flex justify-content-center align-items-center"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-12 d-flex justify-content-center">
+                                <span>(028) 3820 1558 - 0908 130 140</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex justify-content-center">
+                    <img src="./images/t-1593500297-img-01.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,331 @@
+@import url(./fonts/OpenSans/stylesheet.css);
+
+html, body{
+    width: 100%;
+    font-family: OpenSans;
+    font-size: 14px;
+    color: black;
+    overflow-x: hidden;
+    position: relative;
+}
+h2{
+    font-size: 42px;
+}
+img{
+    object-fit: fill;
+}
+
+.header a{
+    text-transform: uppercase;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-brand img{
+    width: 60px;
+}
+.button-show button{
+    float: right;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+.col-lg-3 {
+    margin: 10px 0;
+}   
+.hor-line{
+    width: 100%;
+    height: 2px;
+    color: black;
+    border: 1px black solid;
+}
+.hdcontainer{
+    width: 100%;
+}
+.navbar-toggler button{
+    float: right;
+}
+.gallery{
+    background-color: #f1f1f1;
+}
+.gallery h2{
+    padding-top: 56px;
+    padding: 56px 0 44px 0;
+}
+.gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.gallery p{
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.gallery span{
+    font-size: 12px;
+}
+.gallery .img-container{
+   padding: 10px;
+    background-color: white;
+    transition: transform .5s ease;
+}
+.btn-explore-gallery a{
+    text-decoration: none;
+    color: black;
+}
+.img-container:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    cursor: pointer;
+
+  }
+/* 
+<div class="col-sm-2 d-flex justify-content-center"></div>
+<div class=" nav-container d-flex justify-content-center">
+*/
+.customer{
+    background: url('./images/t-1593425781-bg.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.fa-rhombus{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.straight-line{
+    width: 2px;
+    height: 70px;
+    margin: 0 20px 68px 0;
+    background-color: #b9b9b9;
+}
+.p-heading{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.customer h2{
+    padding-top: 290px; text-align: center; margin-bottom: 8px;
+}
+.customer span{
+    font-size: 16px;
+    color: #d6d6d6;
+}
+.smallcontainer{
+    height: auto;
+    margin-bottom: 28px;
+}
+.sp-name{
+    margin-left: 8px;
+}
+.slogan{
+    text-align: center;
+    padding-bottom: 121px;
+}
+.circle-avatar img{    
+    width: 100%;
+    height: auto;
+}
+.circle-avatar{
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.ourproject{
+    padding-bottom: 100px;
+}
+.p-img{
+    width: 300px;
+    height: 355px;
+    object-fit: cover;
+}
+.ourproject h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.ourproject img{
+    transition: transform 2s, filter .5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+    margin-bottom: 30px;
+}
+.ourproject img:hover {
+    filter: brightness(100%);
+    transform: scale(1.001);
+    cursor: pointer;
+}
+.detailproject{
+    padding-bottom: 100px;
+}
+.detailproject h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.detailproject img{
+    padding-bottom: 20px;
+    object-fit: cover;
+}
+.detailproject p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.archievement{
+    background: url('./images/t-1593499052-bg.jpg');  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.archievement h2{
+    padding-top: 77px;
+    padding-bottom: 70px;
+    color: white;   
+}
+.archievement .row{
+    padding-bottom: 100px;
+    color: white;
+}
+.archievement p{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.archievement span{
+    font-size: 16px;
+    text-transform: lowercase;
+}
+.mabot{
+    margin-bottom: 30px;
+    border-right: 1px white solid;
+}
+.last{
+    border-right:none;
+}
+.personel{
+    height: auto;
+    padding-bottom: 200px;
+}
+.personel h2{
+    margin: 87px 0 24px 0;
+    text-align: center;
+    font-weight: 600;
+}
+.personel span{
+    font-size: 18px;
+    text-align: center;
+}
+.personel .row{
+    margin-top: 45px;
+}
+.p-name{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.p-work-position{
+    font-size: 16px;
+    font-family: OpenSans;
+}
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url(./images/t-1593499052-bg.jpg);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer img{
+    height: 96px;
+    width: auto;
+}
+.footer p{
+    margin-bottom: 18px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer li{
+    list-style: none;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.footer span{
+    font-size: 16px;
+}
+.contact-icon{
+    margin-top: 35px;
+}
+.mgbot30{
+    margin-bottom: 30px;
+}
+/* Custom hover menu */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.hover-horizontal-line {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.hover-horizontal-line * {
+  box-sizing: border-box;
+}
+.hover-horizontal-line li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  padding: 0;
+}
+.hover-horizontal-line a {
+  padding: 0.5em 0;
+  color: #000;
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.hover-horizontal-line a:before,
+.hover-horizontal-line a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.hover-horizontal-line a:before {
+  bottom: 0;
+  display: block;
+  height: 1px;
+  width: 0%;
+  content: "";
+  background-color: black;
+}
+.hover-horizontal-line a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #ffffff;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.hover-horizontal-line a:hover:before,
+.hover-horizontal-line .current a:before {
+  opacity: 1;
+  width: 80%;
+}
+.hover-horizontal-line a:hover:after,
+.hover-horizontal-line .current a:after {
+  max-width: 90%;
+}
+
